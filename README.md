@@ -1,6 +1,3 @@
-# Aman_GIS_CQuest_Challenge
-Repository for the CQuest Challenge.
+###
 
-
-# References
-Horizons - https://www.youtube.com/watch?v=eynv2qpSE7I
+#### GeneralLocation Data Study - Open [here](http://localhost:8889/doc/tree/GIS/CQuest_Challenge/1_GeneralLocationDataStudy.ipynb)
