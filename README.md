@@ -62,4 +62,9 @@ zz = Plot # within the group
 3. I merged all three data and stored it as a geojson format as `pedon_sample_location.geojson` file
 
 
+#### 5. Corelation. 
 
+1. I found the total na values of each column
+2. I took a sample of caco3 and found out the mean for each Land_Use is quite different, so I cannot replace the missing value with the mean of the complete data set.
+3. I grouped the data with LandUse and using mean of the series I replaced the fillna
+4. 
