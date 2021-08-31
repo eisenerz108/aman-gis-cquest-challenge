@@ -55,3 +55,13 @@ zz = Plot # within the group
 
 ### **Requirements**
 
+#### Requirement 1, 2, 3, 4
+
+Identifying the common indices to merge the datas.
+
+1. For Merging the _sample_ and _pedon_ dataframe I used the columns `upedon` and `rcasiteid`. 
+2. For merging the sample_pedon dataframe I used the column `rcasiteid` 
+3. I merged all three data and stored it as a geojson format as `pedon_sample_location.geojson` file
+
+
+
