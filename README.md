@@ -55,7 +55,7 @@ zz = Plot # within the group
 4. I found a sample id is duplicated `C0408C011-1` and I discarded the sample. 
 5. I saved the processed dataframe to a csv which will be used further.
 
-#### Identifying the common indices to merge the datas.
+#### 4. Identifying the common indices to merge the datas.
 
 1. For Merging the _sample_ and _pedon_ dataframe I used the columns `upedon` and `rcasiteid`. 
 2. For merging the sample_pedon dataframe I used the column `rcasiteid` 
