@@ -10,8 +10,10 @@
   * `RaCA_SOC_pedons` - This data contains the information of pedons and number of samples which were taken from each pedon. 
 * `Pedons` - Pedons are three-dimensional bodies of soil with lateral dimensions large enough to permit the study of horizon shapes and relations. Here a three-dimensional sample of a soil just large enough to show the characteristics of all its horizons. Reference was taken from [here](https://www.sciencedirect.com/topics/earth-and-planetary-sciences/pedon)
 * `SOC` - Soil Organic Carbon, read more here - Soil organic carbon (SOC) refers only to the carbon component of organic compounds. Soil organic matter (SOM) is difficult to measure directly, so laboratories tend to measure and report SOC. Reference was taken from [here](https://www.agric.wa.gov.au/measuring-and-assessing-soils/what-soil-organic-carbon#:~:text=Soil%20organic%20carbon%20(SOC)%20refers,to%20measure%20and%20report%20SOC.)
-* ![image](https://user-images.githubusercontent.com/75158219/131504716-c6b425c1-a4d5-45e0-aaed-e0eccaabe252.png) \
-  Picture Taken From : https://www.researchgate.net/profile/Eyasu-Elias/publication/343450769/figure/fig3/AS:921214222626816@1596645994352/a-Pedon-solum-and-soil-individual-in-a-landscape-b-a-typical-soil-profile-Source.jpg \
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/75158219/131504716-c6b425c1-a4d5-45e0-aaed-e0eccaabe252.png" alt="Sublime's custom image"/>
+</p>
+Picture Taken From : https://www.researchgate.net/profile/Eyasu-Elias/publication/343450769/figure/fig3/AS:921214222626816@1596645994352/a-Pedon-solum-and-soil-individual-in-a-landscape-b-a-typical-soil-profile-Source.jpg
   
  ```
 RaCA site ID - Code
@@ -53,11 +55,7 @@ zz = Plot # within the group
 4. I found a sample id is duplicated `C0408C011-1` and I discarded the sample. 
 5. I saved the processed dataframe to a csv which will be used further.
 
-### **Requirements**
-
-#### Requirement 1, 2, 3, 4
-
-Identifying the common indices to merge the datas.
+#### Identifying the common indices to merge the datas.
 
 1. For Merging the _sample_ and _pedon_ dataframe I used the columns `upedon` and `rcasiteid`. 
 2. For merging the sample_pedon dataframe I used the column `rcasiteid` 
