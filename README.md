@@ -1,6 +1,6 @@
 # CQuest Challenge 
 
-### Data Information : 
+### **Data Information** : 
 
 * The Data has been taken from Natural Resources Conservation Service Soils (United States Department of Agriculture) - You can click [here](https://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/survey/?cid=nrcs142p2_054164#data_tables)
 * Data Description
@@ -24,9 +24,9 @@ yy = statistical group # for MO (number varies by region)
 zz = Plot # within the group
 ```
 
-### Understanding the Data 
+### **Understanding the Data**
 
-#### GeneralLocation Data Study - Open [here](http://localhost:8889/doc/tree/GIS/CQuest_Challenge/1_GeneralLocationDataStudy.ipynb)
+#### 1. GeneralLocation Data Study - Open [here](http://localhost:8889/doc/tree/GIS/CQuest_Challenge/1_GeneralLocationDataStudy.ipynb)
 
 1. The best way to start working on data is to know for which locations are you working on. 
 2. I imported the csv file into dataframe and converted it to a geodataframe. 
@@ -34,7 +34,7 @@ zz = Plot # within the group
 4. I processed the Longitude and Latitude of the data, and created a geodataframe with the geometry column and saved the processed out in geojson format for future use. 
 
 
-#### Pedon Data Study 
+#### 2. Pedon Data Study 
 
 1. I imported the csv file into dataframe using the pandas library. 
 2. I found some identifiers and I removed the duplicate identifiers from the pedons dataframe which were of no use. 
@@ -45,7 +45,7 @@ zz = Plot # within the group
 7. I saved the processed dataframe to a csv which will be used further. 
 
 
-#### Samples Data Study
+#### 3. Samples Data Study
 
 1. I imported the csv file into dataframe using the pandas library. 
 2. I found some identifiers and I removed the duplicate identifiers from the samples dataframe which were of no use.
@@ -53,5 +53,5 @@ zz = Plot # within the group
 4. I found a sample id is duplicated `C0408C011-1` and I discarded the sample. 
 5. I saved the processed dataframe to a csv which will be used further.
 
-### Requirements 
+### **Requirements**
 
