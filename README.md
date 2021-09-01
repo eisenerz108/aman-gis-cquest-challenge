@@ -80,6 +80,12 @@
 4. I plotted the correlation matrix of the complete merged dataset which can be seen [here](https://user-images.githubusercontent.com/75158219/131684580-d393a582-958b-43fe-8a85-25fb996f22ec.png) or in `output\images\5_correlation_matrix.png`
 5. Using the mean of each SOC (For each LandUse group), I have plottd a stack plot which can be seen [here](https://user-images.githubusercontent.com/75158219/131685104-ffdcdf71-91b9-4a42-ac61-a72058999508.png) or in `output\images\5_stackplot_soc_landuse.png`
 6. I have saved the final merged data in different formats (ESRIShape, GeoJSON, CSV and HTML-Kelper) in their respective output folders.
+7. I have used KeplerGL package to observe the pattern of the data, and are listed below : 
+   * HeatMap of the BOT (Bottom) Column which show the place where the most depth pedons were taken from, the picture can be found [here](https://user-images.githubusercontent.com/75158219/131688808-93ec904e-7b96-472b-8fbe-a08f3f9e1090.png) or in `output\images\heatmap_BOT.png`and the same can be seen in the grid3map [here](https://user-images.githubusercontent.com/75158219/131689654-091723a4-16f5-4f01-a086-6a87ebfc5c8a.png) or in `output\images\grid3dmap_BPT.png
+   * Radius map of the Bulkdensity and SOCStock100 where the color code will show the bulkdensity and the radius of the point will tell the SOCstock100 content. The pciture can be found [here](https://user-images.githubusercontent.com/75158219/131689073-1a139d3b-7044-41ac-857b-d0c01589463e.png) or in `output\images\radiusmap_bulkdensity_SOCstock100.png`
+   * 
+
+
 
 
 
