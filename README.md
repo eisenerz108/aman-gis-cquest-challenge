@@ -95,7 +95,3 @@ https://www.sciencedirect.com/topics/earth-and-planetary-sciences/pedon
 https://www.agric.wa.gov.au/measuring-and-assessing-soils/what-soil-organic-carbon#:~:text=Soil%20organic%20carbon%20(SOC)%20refers,to%20measure%20and%20report%20SOC
 * <a id="4">[4]</a> 
 https://www.researchgate.net/profile/Eyasu-Elias/publication/343450769/figure/fig3/AS:921214222626816@1596645994352/a-Pedon-solum-and-soil-individual-in-a-landscape-b-a-typical-soil-profile-Source.jpg
-* <a id="5">[5]</a> 
-https://sentinel.esa.int/web/sentinel/technical-guides/sentinel-2-msi/level-2a/algorithm
-* <a id="6">[6]</a> 
-https://www.satimagingcorp.com/satellite-sensors/other-satellite-sensors/sentinel-2a/
