@@ -48,8 +48,8 @@
 1. I imported the csv file into dataframe using the pandas library from `data\RaCA_SOC_pedons.csv`
 2. I found some identifiers and I removed the duplicate identifiers from the pedons dataframe which were of no use. 
 3. I selected only the columns which were needed in the requirement along with the identifiers. 
-4. I fetched the Land Use from the upedon column, and using a pie plot understood the distribution of the pedons(samples) from different LandUse and the output can be seen in `output\images\2_landuse_distribution_pie.png`
-5. I plotted the corelation matrix and found out SOCstoc100 and SOCstock30 are highly corelated output can be seen in `output\images\2_correlationmatrix_soc.png`
+4. I fetched the Land Use from the upedon column, and using a pie plot understood the distribution of the pedons(samples) from different LandUse and the output can be seen in [here](https://user-images.githubusercontent.com/75158219/131683898-79948414-f380-4db9-b26c-8200686bd474.png) or in `output\images\2_landuse_distribution_pie.png`
+5. I plotted the corelation matrix and found out SOCstoc100 and SOCstock30 are highly corelated output can be seen [here](https://user-images.githubusercontent.com/75158219/131683820-3bd82c93-3e6e-4a02-bca2-a18ce7d4514d.png) or in `output\images\2_correlationmatrix_soc.png`
 6. I saved the processed dataframe to a csv which will be used further in `processed_data\pedons_processed.csv`
 
 
