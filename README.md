@@ -1,12 +1,12 @@
 # CQuest Challenge 
 
 ## Contents : 
-* [Data Information](#data-information-:)
+* [Data Information](#data-information)
 * [Understanding the Data set](#understanding-the-data)
 * [Merging and finding corelations](#)
 * [References](#references)
 
-### **Data Information** : 
+### **Data Information**
 
 * The Data has been taken from Natural Resources Conservation Service Soils (United States Department of Agriculture) [[1]](#1)
 * Data Description
