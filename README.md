@@ -40,27 +40,27 @@
 1. The best way to start working on data is to know for which locations are you working on. 
 2. I imported the csv file into dataframe and converted it to a geodataframe from `data\RaCA_general_location.csv`
 3. Using KeplerGl I understood the Points belong to USA. 
-4. I processed the Longitude and Latitude of the data, and created a geodataframe with the geometry column and saved the processed out in geojson format for future use in `processed_data\general_location_processed.geojson`
+4. I processed the Longitude and Latitude of the data, and created a geodataframe with the geometry column and saved the processed out in geojson format for future use and saved the file in `processed_data\general_location_processed.geojson`
 
 
 #### 2. Pedon Data Study - Please open `2_PedonDataStudy.ipynb`
 
-1. I imported the csv file into dataframe using the pandas library. 
+1. I imported the csv file into dataframe using the pandas library from `data\RaCA_SOC_pedons.csv`
 2. I found some identifiers and I removed the duplicate identifiers from the pedons dataframe which were of no use. 
 3. I selected only the columns which were needed in the requirement along with the identifiers. 
 4. I fetched the Land Use from the upedon column, and plotting the number of pedons taken from each Land Use. 
 5. I plotted the corelation matrix and found out SOCstoc100 and SOCstock30 are highly corelated. 
 6. I calculated the mean SOC values for each depth (5, 30, and 100 cms) for each Land Use. 
-7. I saved the processed dataframe to a csv which will be used further. 
+7. I saved the processed dataframe to a csv which will be used further in `processed_data\pedons_processed.csv`
 
 
 #### 3. Samples Data Study - Please open `3_SamplesDataStudy.ipynb`
 
-1. I imported the csv file into dataframe using the pandas library. 
+1. I imported the csv file into dataframe using the pandas library from `data\RaCA_samples.csv` 
 2. I found some identifiers and I removed the duplicate identifiers from the samples dataframe which were of no use.
 3. I selected only the columns which were needed in the requirement along with the identifiers. 
 4. I found a sample id is duplicated `C0408C011-1` and I discarded the sample. 
-5. I saved the processed dataframe to a csv which will be used further.
+5. I saved the processed dataframe to a csv which will be used further in `processed_data\sample_data_processed.csv`
 
 ### Merging and Finding Corelations
 
