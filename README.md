@@ -3,7 +3,7 @@
 ## Contents : 
 * [Data Information](#data-information)
 * [Understanding the Data set](#understanding-the-data)
-* [Merging and finding corelations](#merging-and-finding-corelations)
+* [Merging and finding correlations](#merging-and-finding-correlations)
 * [References](#references)
 
 ### **Data Information**
@@ -35,15 +35,15 @@
 
 ### **Understanding the Data**
 
-#### 1. GeneralLocation Data Study - Open [here](http://localhost:8889/doc/tree/GIS/CQuest_Challenge/1_GeneralLocationDataStudy.ipynb)
+#### 1. GeneralLocation Data Study - Please open `1_GeneralLocationDataStudy.ipynb`
 
 1. The best way to start working on data is to know for which locations are you working on. 
-2. I imported the csv file into dataframe and converted it to a geodataframe. 
+2. I imported the csv file into dataframe and converted it to a geodataframe from `data\RaCA_general_location.csv`
 3. Using KeplerGl I understood the Points belong to USA. 
-4. I processed the Longitude and Latitude of the data, and created a geodataframe with the geometry column and saved the processed out in geojson format for future use. 
+4. I processed the Longitude and Latitude of the data, and created a geodataframe with the geometry column and saved the processed out in geojson format for future use in `processed_data\general_location_processed.geojson`
 
 
-#### 2. Pedon Data Study 
+#### 2. Pedon Data Study - Please open `2_PedonDataStudy.ipynb`
 
 1. I imported the csv file into dataframe using the pandas library. 
 2. I found some identifiers and I removed the duplicate identifiers from the pedons dataframe which were of no use. 
@@ -54,7 +54,7 @@
 7. I saved the processed dataframe to a csv which will be used further. 
 
 
-#### 3. Samples Data Study
+#### 3. Samples Data Study - Please open `3_SamplesDataStudy.ipynb`
 
 1. I imported the csv file into dataframe using the pandas library. 
 2. I found some identifiers and I removed the duplicate identifiers from the samples dataframe which were of no use.
@@ -64,14 +64,14 @@
 
 ### Merging and Finding Corelations
 
-#### 4. Identifying the common indices to merge the datas.
+#### 4. Identifying the common indices to merge the datas. - Please open `4_Merging_Data.ipynb`
 
 1. For Merging the _sample_ and _pedon_ dataframe I used the columns `upedon` and `rcasiteid`. 
 2. For merging the sample_pedon dataframe I used the column `rcasiteid` 
 3. I merged all three data and stored it as a geojson format as `pedon_sample_location.geojson` file
 
 
-#### 5. Corelation. 
+#### 5. Correlation - Please open `5_Correlation.ipynb`
 
 1. I found the total na values of each column
 2. I took a sample of caco3 and found out the mean for each Land_Use is quite different, so I cannot replace the missing value with the mean of the complete data set.
