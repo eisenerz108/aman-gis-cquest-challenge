@@ -24,7 +24,7 @@
 
 * `jupyterlab` - For writing python scripts. 
 * `github` - Version Controlling
-* Python Packages used : Geopandas, Pandas, Matplotlib, KeplerGl, Seaborn, Shapely.
+* `Python Packages used` : Geopandas, Pandas, Matplotlib, KeplerGl, Seaborn, Shapely.
 
 
 ### **Data Information**
