@@ -79,7 +79,7 @@
 3. I grouped the data with LandUse and using mean of the series I replaced the fillna.
 4. I plotted the correlation matrix of the complete merged dataset which can be seen [here](https://user-images.githubusercontent.com/75158219/131684580-d393a582-958b-43fe-8a85-25fb996f22ec.png) or in `output\images\5_correlation_matrix.png`
 5. Using the mean of each SOC (For each LandUse group), I have plottd a stack plot which can be seen [here](https://user-images.githubusercontent.com/75158219/131685104-ffdcdf71-91b9-4a42-ac61-a72058999508.png) or in `output\images\5_stackplot_soc_landuse.png`
-6. 
+6. I have saved the final merged data in different formats (ESRIShape, GeoJSON, CSV and HTML-Kelper) in their respective output folders.
 
 
 
