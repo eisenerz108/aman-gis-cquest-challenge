@@ -85,12 +85,7 @@
    * Radius map of the Bulkdensity and SOCStock100 where the color code will show the bulkdensity and the radius of the point will tell the SOCstock100 content. The pciture can be found [here](https://user-images.githubusercontent.com/75158219/131689073-1a139d3b-7044-41ac-857b-d0c01589463e.png) or in `output\images\radiusmap_bulkdensity_SOCstock100.png`
    * Heat map and the grid3dmap of the c_tot_ncs can be found [here-heatmap](https://user-images.githubusercontent.com/75158219/131690097-c82fbdee-a8a1-45ec-94e5-2b175bc97151.png) and [here-3dmap](https://user-images.githubusercontent.com/75158219/131690561-7c3f719c-7e5a-4018-9660-44e788e62ace.png)
  or in `output\images\heatmap_c_tot_ncs.png` and `output\images\grid3dmap_c_tot_ncs.png`
-   * Radius map of the SOCstock100 with the Land_Use can be found [here]![image](https://user-images.githubusercontent.com/75158219/131690698-79fd86a8-59b5-41d7-bb9c-366babac9d94.png)
- or in `output\images\radiumsmap_LandUse_SOCstock100.png`
-
-
-
-
+   * Radius map of the SOCstock100 with the Land_Use can be found [here](https://user-images.githubusercontent.com/75158219/131690698-79fd86a8-59b5-41d7-bb9c-366babac9d94.png) or in `output\images\radiumsmap_LandUse_SOCstock100.png`
 
 
 
