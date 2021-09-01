@@ -61,7 +61,7 @@
 4. I found a sample id is duplicated `C0408C011-1` and I discarded the sample. 
 5. I saved the processed dataframe to a csv which will be used further in `processed_data\sample_data_processed.csv`
 
-### Merging and Finding Corelations
+### Merging and Finding Correlations
 
 #### 4. Identifying the common indices to merge the datas. - Please open `4_Merging_Data.ipynb`
 
