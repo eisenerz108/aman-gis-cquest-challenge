@@ -39,7 +39,7 @@
 
 1. The best way to start working on data is to know for which locations are you working on. 
 2. I imported the csv file into dataframe and converted it to a geodataframe from `data\RaCA_general_location.csv`
-3. Using KeplerGl I understood the Points belong to USA, and output can be seen in `output\images\locationpoints_usa.png`
+3. Using KeplerGl I understood the Points belong to USA, and output can be seen in `output\images\1_locationpoints_usa.png`
 4. I processed the Longitude and Latitude of the data, and created a geodataframe with the geometry column and saved the processed out in geojson format for future use and saved the file in `processed_data\general_location_processed.geojson`
 
 
