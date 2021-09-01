@@ -76,8 +76,10 @@
 1. I have imported the processed merged data `processed_data\pedon_sample_location.geojson` file
 1. I found the total na values of each column.
 2. I took a sample of caco3 and found out the mean for each Land_Use is quite different, so I cannot replace the missing value with the mean of the complete data set.
-3. I grouped the data with LandUse and using mean of the series I replaced the fillna
-4. 
+3. I grouped the data with LandUse and using mean of the series I replaced the fillna.
+4. I plotted the correlation matrix of the complete merged dataset which can be seen [here](https://user-images.githubusercontent.com/75158219/131684580-d393a582-958b-43fe-8a85-25fb996f22ec.png) or in `output\images\5_correlation_matrix.png`
+5. Using the mean of each SOC (For each LandUse group), I have plottd a stack plot which can be seen [here](https://user-images.githubusercontent.com/75158219/131685104-ffdcdf71-91b9-4a42-ac61-a72058999508.png) or in `output\images\5_stackplot_soc_landuse.png`
+6. 
 
 
 
