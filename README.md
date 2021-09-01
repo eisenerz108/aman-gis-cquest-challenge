@@ -1,10 +1,17 @@
 # CQuest Challenge 
 
 ## Contents : 
+* [Challenge Information](#challenge-information)
 * [Data Information](#data-information)
 * [Understanding the Data set](#understanding-the-data)
 * [Merging and finding correlations](#merging-and-finding-correlations)
 * [References](#references)
+
+### **Challenge Information**
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/75158219/131719578-0ef4d531-8635-4b3f-9091-8e3bb4917b89.png"/>
+</p> 
 
 ### **Data Information**
 
