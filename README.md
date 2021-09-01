@@ -2,6 +2,7 @@
 
 ## Contents : 
 * [Challenge Information](#challenge-information)
+* [Tools Used](#tools-used)
 * [Data Information](#data-information)
 * [Understanding the Data set](#understanding-the-data)
 * [Merging and finding correlations](#merging-and-finding-correlations)
@@ -18,6 +19,13 @@
 <p align="center">
   <img src="https://user-images.githubusercontent.com/75158219/131719578-0ef4d531-8635-4b3f-9091-8e3bb4917b89.png"/>
 </p> 
+
+### **Tools Used**
+
+* `jupyterlab` - For writing python scripts. 
+* `github` - Version Controlling
+* Python Packages used : Geopandas, Pandas, Matplotlib, KeplerGl, Seaborn, Shapely.
+
 
 ### **Data Information**
 
