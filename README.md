@@ -39,7 +39,7 @@
 
 1. The best way to start working on data is to know for which locations are you working on. 
 2. I imported the csv file into dataframe and converted it to a geodataframe from `data\RaCA_general_location.csv`
-3. Using KeplerGl I understood the Points belong to USA. 
+3. Using KeplerGl I understood the Points belong to USA, and output can be seen in `output\images\locationpoints_usa.png`
 4. I processed the Longitude and Latitude of the data, and created a geodataframe with the geometry column and saved the processed out in geojson format for future use and saved the file in `processed_data\general_location_processed.geojson`
 
 
@@ -48,8 +48,8 @@
 1. I imported the csv file into dataframe using the pandas library from `data\RaCA_SOC_pedons.csv`
 2. I found some identifiers and I removed the duplicate identifiers from the pedons dataframe which were of no use. 
 3. I selected only the columns which were needed in the requirement along with the identifiers. 
-4. I fetched the Land Use from the upedon column, and using a pie plot understood the distribution of the pedons(samples) from different LandUse
-5. I plotted the corelation matrix and found out SOCstoc100 and SOCstock30 are highly corelated. 
+4. I fetched the Land Use from the upedon column, and using a pie plot understood the distribution of the pedons(samples) from different LandUse and the output can be seen in `output\images\2_landuse_distribution_pie.png`
+5. I plotted the corelation matrix and found out SOCstoc100 and SOCstock30 are highly corelated output can be seen in `output\images\2_correlationmatrix_soc.png`
 6. I saved the processed dataframe to a csv which will be used further in `processed_data\pedons_processed.csv`
 
 
@@ -65,14 +65,16 @@
 
 #### 4. Identifying the common indices to merge the datas. - Please open `4_Merging_Data.ipynb`
 
-1. For Merging the _sample_ and _pedon_ dataframe I used the columns `upedon` and `rcasiteid`. 
-2. For merging the sample_pedon dataframe I used the column `rcasiteid` 
-3. I merged all three data and stored it as a geojson format as `pedon_sample_location.geojson` file
+1. I have imported the processed data from the `processed_data` folder. 
+1. For Merging the _sample_ and _pedon_ dataframe I used the columns `upedon` and `rcasiteid` and named as `samples_pedons_df`
+2. For merging the `sample_pedons_df` and the `location_gdf` I used the column `rcasiteid` 
+3. I merged all three data and stored it as a geojson format as `processed_data\pedon_sample_location.geojson` file
 
 
 #### 5. Correlation - Please open `5_Correlation.ipynb`
 
-1. I found the total na values of each column
+1. I have imported the processed merged data `processed_data\pedon_sample_location.geojson` file
+1. I found the total na values of each column.
 2. I took a sample of caco3 and found out the mean for each Land_Use is quite different, so I cannot replace the missing value with the mean of the complete data set.
 3. I grouped the data with LandUse and using mean of the series I replaced the fillna
 4. 
