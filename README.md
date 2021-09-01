@@ -23,7 +23,7 @@
 ### **Tools Used**
 
 * `jupyterlab` - For writing python scripts. 
-* `github` - Version Controlling
+* `github` - Version Controlling (Private Repository)
 * `Python Packages used` : Geopandas, Pandas, Matplotlib, KeplerGl, Seaborn, Shapely.
 
 
