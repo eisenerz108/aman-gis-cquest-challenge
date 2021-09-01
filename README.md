@@ -9,7 +9,7 @@
 
 ### **Challenge Information**
 
-1. I have written most of the statements in the README.md file to keep the ipynb files clean. 
+1. I have written most of the statements and references used for the soil information in the README.md file to keep the ipynb files clean. 
 2. I have divided the python notebooks into 5 different notebooks. (Each notebook is having it's own description below)
 3. Total Time taken to complete this challenge : 
    * `Coding` - 10 Hours
