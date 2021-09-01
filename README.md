@@ -9,6 +9,12 @@
 
 ### **Challenge Information**
 
+1. I have written most of the statements in the README.md file to keep the ipynb files clean. 
+2. I have divided the python notebooks into 5 different notebooks. (Each notebook is having it's own description below)
+3. Total Time taken to complete this challenge : 
+   * `Coding` - 10 Hours
+   * `Documentation` - 2 Hours
+4. Please have a look at the directory structure below : 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/75158219/131719578-0ef4d531-8635-4b3f-9091-8e3bb4917b89.png"/>
 </p> 
