@@ -48,10 +48,9 @@
 1. I imported the csv file into dataframe using the pandas library from `data\RaCA_SOC_pedons.csv`
 2. I found some identifiers and I removed the duplicate identifiers from the pedons dataframe which were of no use. 
 3. I selected only the columns which were needed in the requirement along with the identifiers. 
-4. I fetched the Land Use from the upedon column, and plotting the number of pedons taken from each Land Use. 
+4. I fetched the Land Use from the upedon column, and using a pie plot understood the distribution of the pedons(samples) from different LandUse
 5. I plotted the corelation matrix and found out SOCstoc100 and SOCstock30 are highly corelated. 
-6. I calculated the mean SOC values for each depth (5, 30, and 100 cms) for each Land Use. 
-7. I saved the processed dataframe to a csv which will be used further in `processed_data\pedons_processed.csv`
+6. I saved the processed dataframe to a csv which will be used further in `processed_data\pedons_processed.csv`
 
 
 #### 3. Samples Data Study - Please open `3_SamplesDataStudy.ipynb`
