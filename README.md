@@ -1,14 +1,20 @@
 # CQuest Challenge 
 
+## Contents : 
+* Data Information
+* Understanding the Data set
+* Merging and finding corelations
+* References
+
 ### **Data Information** : 
 
-* The Data has been taken from Natural Resources Conservation Service Soils (United States Department of Agriculture)[[1]] (#1)
+* The Data has been taken from Natural Resources Conservation Service Soils (United States Department of Agriculture) [[1]](#1)
 * Data Description
   * `RaCA_data_columns_expl` - This data gives the information about the columns of the general location and pedons dataset and most importantly the breakdown of the RaCA side ID code
   * `RaCA_general_location` - This data gives the coordinates of the RCA Site IDs. 
   * `RaCA_samples` - This data contains all the samples of the pedons of each RCA site id with the soil properties in it.
   * `RaCA_SOC_pedons` - This data contains the information of pedons and number of samples which were taken from each pedon. 
-* `Pedons` - Pedons are three-dimensional bodies of soil with lateral dimensions large enough to permit the study of horizon shapes and relations. Here a three-dimensional sample of a soil just large enough to show the characteristics of all its horizons.[[2]](#2) 
+* `Pedons` - Pedons are three-dimensional bodies of soil with lateral dimensions large enough to permit the study of horizon shapes and relations. Here a three-dimensional sample of a soil just large enough to show the characteristics of all its horizons. [[2]](#2) 
 * `SOC` - Soil Organic Carbon, read more here - Soil organic carbon (SOC) refers only to the carbon component of organic compounds. Soil organic matter (SOM) is difficult to measure directly, so laboratories tend to measure and report SOC. [[3]](#3)
 <p align="center">
   <img src="https://user-images.githubusercontent.com/75158219/131504716-c6b425c1-a4d5-45e0-aaed-e0eccaabe252.png" alt="Sublime's custom image"/>
