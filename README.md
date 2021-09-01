@@ -1,7 +1,7 @@
 # CQuest Challenge 
 
 ## Contents : 
-* [Data Information](#data-information)
+* [Data Information](#data-information-:)
 * [Understanding the Data set](#understanding-the-data)
 * [Merging and finding corelations](#)
 * [References](#references)
