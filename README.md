@@ -3,7 +3,7 @@
 ## Contents : 
 * [Data Information](#data-information)
 * [Understanding the Data set](#understanding-the-data)
-* [Merging and finding corelations](#)
+* [Merging and finding corelations](#merging-and-finding-corelations)
 * [References](#references)
 
 ### **Data Information**
@@ -11,26 +11,27 @@
 * The Data has been taken from Natural Resources Conservation Service Soils (United States Department of Agriculture) [[1]](#1)
 * Data Description
   * `RaCA_data_columns_expl` - This data gives the information about the columns of the general location and pedons dataset and most importantly the breakdown of the RaCA side ID code
-  * `RaCA_general_location` - This data gives the coordinates of the RCA Site IDs. 
+  * `RaCA_general_location` - This data gives the coordinates (exact locations) of the RCA Site IDs. 
   * `RaCA_samples` - This data contains all the samples of the pedons of each RCA site id with the soil properties in it.
   * `RaCA_SOC_pedons` - This data contains the information of pedons and number of samples which were taken from each pedon. 
-* `Pedons` - Pedons are three-dimensional bodies of soil with lateral dimensions large enough to permit the study of horizon shapes and relations. Here a three-dimensional sample of a soil just large enough to show the characteristics of all its horizons. [[2]](#2) 
-* `SOC` - Soil Organic Carbon, read more here - Soil organic carbon (SOC) refers only to the carbon component of organic compounds. Soil organic matter (SOM) is difficult to measure directly, so laboratories tend to measure and report SOC. [[3]](#3)
+* `What are Pedons?` - Pedons are three-dimensional bodies of soil with lateral dimensions large enough to permit the study of horizon shapes and relations. Here a three-dimensional sample of a soil just large enough to show the characteristics of all its horizons. [[2]](#2) 
+* `What is a SOC?` - Soil Organic Carbon, read more here - Soil organic carbon (SOC) refers only to the carbon component of organic compounds. Soil organic matter (SOM) is difficult to measure directly, so laboratories tend to measure and report SOC. [[3]](#3)
 <p align="center">
   <img src="https://user-images.githubusercontent.com/75158219/131504716-c6b425c1-a4d5-45e0-aaed-e0eccaabe252.png" alt="Sublime's custom image"/>
+</p>   
+<p align='center'>
+   <em>Picture depecting a Pedon [4]</em>
 </p>
-Picture Taken From : https://www.researchgate.net/profile/Eyasu-Elias/publication/343450769/figure/fig3/AS:921214222626816@1596645994352/a-Pedon-solum-and-soil-individual-in-a-landscape-b-a-typical-soil-profile-Source.jpg
   
- ```
-RaCA site ID - Code
-RaCA site ID = CxxyyLzz
-
-C = placeholder character (C,A,X or F)
-xx = RaCA Region/old MO number (01 - 18)
-yy = statistical group # for MO (number varies by region)
- L = land use/land cover type (C=Cropland, F=Forest land, P=Pastureland, R=Rangeland, W=Wetland, and X=CRP)
-zz = Plot # within the group
-```
+#### Understanding the RCA Site ID Code 
+ 
+>RaCA site ID - Code\
+>RaCA site ID = CxxyyLzz\
+>C = placeholder character (C,A,X or F)\
+>xx = RaCA Region/old MO number (01 - 18)\
+>yy = statistical group # for MO (number varies by region)\
+>L = land use/land cover type (C=Cropland, F=Forest land, P=Pastureland, R=Rangeland, W=Wetland, and X=CRP)\
+>zz = Plot # within the group
 
 ### **Understanding the Data**
 
@@ -61,6 +62,8 @@ zz = Plot # within the group
 4. I found a sample id is duplicated `C0408C011-1` and I discarded the sample. 
 5. I saved the processed dataframe to a csv which will be used further.
 
+### Merging and Finding Corelations
+
 #### 4. Identifying the common indices to merge the datas.
 
 1. For Merging the _sample_ and _pedon_ dataframe I used the columns `upedon` and `rcasiteid`. 
@@ -88,7 +91,7 @@ https://www.sciencedirect.com/topics/earth-and-planetary-sciences/pedon
 * <a id="3">[3]</a> 
 https://www.agric.wa.gov.au/measuring-and-assessing-soils/what-soil-organic-carbon#:~:text=Soil%20organic%20carbon%20(SOC)%20refers,to%20measure%20and%20report%20SOC
 * <a id="4">[4]</a> 
-https://en.wikipedia.org/wiki/Sentinel-2#Spectral_bands
+https://www.researchgate.net/profile/Eyasu-Elias/publication/343450769/figure/fig3/AS:921214222626816@1596645994352/a-Pedon-solum-and-soil-individual-in-a-landscape-b-a-typical-soil-profile-Source.jpg
 * <a id="5">[5]</a> 
 https://sentinel.esa.int/web/sentinel/technical-guides/sentinel-2-msi/level-2a/algorithm
 * <a id="6">[6]</a> 
