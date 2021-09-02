@@ -113,7 +113,7 @@
 
 ### Conclusion 
 
-* The West coast of United States of America (Specially Portland and Seatlle) have the most Soil Organic Carbon at 100cms (SOCStock100) and the most total combustion carbon (c_tot_ncs).
+* The West coast of United States of America (Specially Portland and Seattle) have the most Soil Organic Carbon at 100cms (SOCStock100) and the most total combustion carbon (c_tot_ncs).
 * We also see a bit of spike in Soil Organic Carbon at 100cms (SOCStock100) and total combustion carbon (c_tot_ncs) in the area near to Salt Lake City.
 
 
