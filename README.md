@@ -6,6 +6,7 @@
 * [Data Information](#data-information)
 * [Understanding the Data set](#understanding-the-data)
 * [Merging and finding correlations](#merging-and-finding-correlations)
+* [Conclusion](#conclusion)
 * [References](#references)
 
 ### **Challenge Information**
@@ -109,6 +110,11 @@
  or in `output\images\heatmap_c_tot_ncs.png` and `output\images\grid3dmap_c_tot_ncs.png`
    * Radius map of the SOCstock100 with the Land_Use can be found [here](https://user-images.githubusercontent.com/75158219/131690698-79fd86a8-59b5-41d7-bb9c-366babac9d94.png) or in `output\images\radiumsmap_LandUse_SOCstock100.png`
 
+
+### Conclusion 
+
+* The West coast of United States of America (Specially Portland and Seatlle) have the most Soil Organic Carbon at 100cms (SOCStock100) and the most total combustion carbon (c_tot_ncs).
+* We also see a bit of spike in Soil Organic Carbon at 100cms (SOCStock100) and total combustion carbon (c_tot_ncs) in the area near to Salt Lake City.
 
 
 
