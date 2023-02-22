@@ -1,4 +1,4 @@
-# CQuest Challenge 
+# CQuest Challenge
 
 ## Contents : 
 * [Challenge Information](#challenge-information)
